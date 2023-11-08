@@ -8,25 +8,56 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
     <Button
+        app:backgroundTint="@null"
+        android:background="@drawable/button_circle"
         android:id="@+id/play_sound"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        ></Button>
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginBottom="40dp"
+        android:text="🔊"
+        android:textSize="30dp">
 
+    </Button>
+
+        <Button
+            app:backgroundTint="@null"
+            android:background="@drawable/button_circle"
+            android:id="@+id/play_sound2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="40dp"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:text="🔊"
+            android:textSize="30dp">
+
+        </Button>
     <Button
-        android:id="@+id/play_sound2"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        ></Button>
-    <Button
+        app:backgroundTint="@null"
+        android:background="@drawable/button_circle"
         android:id="@+id/play_sound3"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        ></Button>
-    <Button
-        android:id="@+id/play_sound4"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        ></Button>
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginBottom="40dp"
+        android:text="🔊"
+        android:textSize="30dp">
+
+    </Button>
+
+        <Button
+            app:backgroundTint="@null"
+            android:background="@drawable/button_circle"
+            android:id="@+id/play_sound4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="40dp"
+            android:text="🔊"
+            android:textSize="30dp">
+
+        </Button>
     </LinearLayout>
 </LinearLayout>

@@ -81,7 +81,7 @@ class SoundAdapter( val context : Context): RecyclerView.Adapter<SoundAdapter.So
         }
     }
     override fun getItemCount(): Int {
-        return 3
+        return 10
     }
 
 
